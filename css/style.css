@@ -32,7 +32,7 @@ body {
 .southie {
 
     background: #212121 url(../img/backgrounds/city.jpg) no-repeat;
-	background-size:100%;
+	background-size:100% auto;
 }
 
 h1 {
