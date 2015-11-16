@@ -1,0 +1,88 @@
+body{
+	padding: 2em;
+	background-color: #333333;
+}
+
+h1, h4{
+	color: white;
+}
+
+.text{
+	padding:.25em;
+}
+
+.about{
+	background-color:#000;
+	color:white;
+}
+
+
+#about-image{
+	background-color:#F2F2F2;
+}
+
+#portfolio{
+	background-color: #666;
+}
+.container{
+  padding: 2%;
+  text-align: justify;
+  font-size: 0.1px;
+  
+  -webkit-backface-visibility: hidden;
+}
+
+.button{
+	background-color: #6AD1C9;
+}
+.container:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.container .mix,
+.container .gap{
+  display: inline-block;
+  width: 49%;
+}
+
+.container .mix{
+  text-align: center;
+  margin-bottom: 2%;
+  display: none;
+}
+
+.container .mix:after{
+  display: inline-block;
+  vertical-align: top;
+  padding: 4%;
+  font-weight: 700;
+}
+
+.container .mix:before{
+  content: '';
+  display: inline-block;
+}
+
+.clearing-thumbs li{  
+  margin: 0em .25em;  
+  padding: 0em .15em;
+}
+
+#contact{
+
+}
+
+#social{
+
+}
+
+#footer{
+	text-align: center;
+	color:#fff;
+}
+
+#portfolio-filters{
+	text-align: center;
+}
